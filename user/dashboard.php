@@ -21,6 +21,10 @@ if (!isset($_SESSION["user_id"])) {
 
 <h3>User Dashboard</h3>
 
+<a href="booking.php">Book a Seat</a><br><br>
+
+<a href="my_bookings.php">My Bookings</a><br><br>
+
 <a href="logout.php">Logout</a>
 
 </body>
