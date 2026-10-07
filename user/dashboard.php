@@ -10,22 +10,24 @@ if (!isset($_SESSION["user_id"])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User Dashboard - Digital Library</title>
+    <title>Digital Library - User Dashboard</title>
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 
-<h2>Welcome to Digital Library</h2>
+<h2>📚 Digital Library</h2>
 
-<p>Welcome, <?php echo $_SESSION["user_name"]; ?>!</p>
+<p>Welcome, <strong><?php echo $_SESSION["user_name"]; ?></strong>!</p>
 
 <h3>User Dashboard</h3>
 
-<a href="booking.php">Book a Seat</a><br><br>
+<p>Select an option below:</p>
 
-<a href="my_bookings.php">My Bookings</a><br><br>
+<a href="booking.php">📖 Book a Seat</a><br><br>
 
-<a href="logout.php">Logout</a>
+<a href="my_bookings.php">📋 My Bookings</a><br><br>
+
+<a href="logout.php">🚪 Logout</a>
 
 </body>
 </html>

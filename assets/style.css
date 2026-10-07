@@ -2,11 +2,16 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     text-align: center;
-    margin-top: 50px;
+    margin: 0;
+    padding-top: 50px;
 }
 
 h2 {
     color: #333;
+}
+
+h3 {
+    color: #444;
 }
 
 form {
@@ -15,12 +20,15 @@ form {
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 input {
     width: 90%;
     padding: 10px;
     margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
@@ -32,6 +40,29 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #555;
+}
+
 a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    padding: 10px;
 }
